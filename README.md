@@ -10,7 +10,8 @@ The project includes two related workflows:
 .
 ├── sleep_and_activity_phenotypes/
 │   ├── phenotypes.html
-│   └── phenotypes_data_dictionary.xlsx
+│   ├── phenotypes_data_dictionary.xlsx
+│   └── phenotypes_documentation.docx
 └── sleep_phenotypes/
     ├── ml.R
     ├── ml_supplemental.R
@@ -23,6 +24,7 @@ The project includes two related workflows:
 
 - **`phenotypes.html`** — HTML export of the Python phenotype analysis. The workflow uses K-means clustering based on peak one-minute cadence and Movement Index, examines cluster stability, summarizes participant characteristics, and fits survival and mixed-effects models.
 - **`phenotypes_data_dictionary.xlsx`** — Definitions for variables used in the phenotype analysis.
+- **`phenotypes_documentation.docx`** — Methodological documentation covering data processing, feature engineering, phenotype creation, evaluation, and outcomes.
 
 ### `sleep_phenotypes/`
 
